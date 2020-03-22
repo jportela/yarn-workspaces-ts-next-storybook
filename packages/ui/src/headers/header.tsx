@@ -1,9 +1,9 @@
 import React from 'react'
 
 interface HeaderProps {
-  children?: React.ReactChild | React.ReactChild[];
+  children: React.ReactNode;
 }
 
-export default function Header(props: HeaderProps): React.ReactElement {
+export default function Header(props: HeaderProps) {
   return (<h1>{props.children}</h1>)
 }

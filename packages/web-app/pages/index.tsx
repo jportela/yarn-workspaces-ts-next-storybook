@@ -1,7 +1,7 @@
 import React from 'react'
 import { Header, Button } from '@example/ui'
 
-export default function HomePage(): React.ReactElement {
+export default function HomePage() {
 
   const [counter, setCounter] = React.useState(0)
 
