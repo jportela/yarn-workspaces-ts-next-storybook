@@ -1,7 +1,7 @@
 import React from 'react'
 import { Header, Button } from 'ui'
 
-export default function HomePage()/*: React.ReactElement*/ {
+export default function HomePage(): React.ReactElement {
 
   const onClick = () => console.log('Hello')
 
