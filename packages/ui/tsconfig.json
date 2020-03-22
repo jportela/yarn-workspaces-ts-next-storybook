@@ -1,10 +1,9 @@
 {
   "compilerOptions": {
-    "jsx": "preserve"
+    "jsx": "react"
   },
   "extends": "../../tsconfig.json",
   "include": [
-    "next-env.d.ts",
     "**/*.ts",
     "**/*.tsx"
   ]

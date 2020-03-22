@@ -2,5 +2,20 @@
   "name": "@example/ui",
   "version": "1.0.0",
   "main": "src/index.tsx",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "storybook": "start-storybook"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@storybook/preset-typescript": "^2.1.0",
+    "@storybook/react": "^5.3.17",
+    "babel-loader": "^8.1.0",
+    "fork-ts-checker-webpack-plugin": "^4.1.0",
+    "ts-loader": "^6.2.2"
+  },
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
 }

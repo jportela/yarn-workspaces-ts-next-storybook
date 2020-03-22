@@ -5,6 +5,7 @@
   ],
   "scripts": {
     "dev": "yarn --cwd packages/web-app dev",
+    "storybook": "yarn --cwd packages/ui storybook",
     "build": "yarn --cwd packages/web-app build",
     "start": "yarn --cwd packages/web-app start"
   }
