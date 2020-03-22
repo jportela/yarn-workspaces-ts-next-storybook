@@ -1,4 +1,3 @@
-// next.config.js
-const withTM = require('next-transpile-modules')(['ui']); // pass the modules you would like to see transpiled
+const withTM = require('next-transpile-modules')(['@example/ui']);
 
 module.exports = withTM();
